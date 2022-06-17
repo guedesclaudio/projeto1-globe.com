@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="#" width="250"></div>
+  <img src="https://logodownload.org/wp-content/uploads/2013/12/globo-tv-logo.png" width="250"></div>
 <br>
   
 - Criação da página principal do Globo.com de forma estática.
@@ -20,7 +20,7 @@
 
 # Preview
 <div align="center">
-  <a href="#"><img src="#" width="600"></a>
+  <a href="https://guedesclaudio.github.io/projeto1-globe.com/"><img src="#" width="600"></a>
   <br>
   <br>
   <p>Clique na imagem para acessar a página</p>
