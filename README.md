@@ -20,7 +20,7 @@
 
 # Preview
 <div align="center">
-  <a href="https://guedesclaudio.github.io/projeto1-globe.com/"><img src="#" width="600"></a>
+  <a href="https://guedesclaudio.github.io/projeto1-globe.com/"><img src="img/layout-globo.png" width="600"></a>
   <br>
   <br>
   <p>Clique na imagem para acessar a página</p>
