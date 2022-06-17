@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Roboto:wght@300&display=swap");
+
+body {
+  font-family: "Encode Sans", sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #f5f6f7;
+}
+
+.caixa-menu {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #f5f6f7;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  margin: 0 auto;
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g1 {
+  color: #c4170c;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.globo {
+  color: #1e4c9a;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.valor {
+  color: #006767;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.ge {
+  color: #06aa48;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.cartola {
+  color: #ff7400;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.gplay {
+  color: #fb0234;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.dropz {
+  color: #ff75bb;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.gshow {
+  color: #ff6700;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.quem {
+  color: #333;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.receitas {
+  color: #a5147d;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.container {
+  margin: 30px auto;
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.noticias-principais {
+  padding-right: 30px;
+}
+
+.manchete h1 {
+  width: 624px;
+  color: #c4160c;
+  font-size: 52px;
+  font-weight: bold;
+  font-family: "Encode Sans", sans-serif;
+  margin-bottom: 40px;
+}
+
+.manchete h2 {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #303134;
+  margin: 10px 0;
+}
+
+.noticias-imagens {
+  border-top: 1px solid #ebedef;
+  border-bottom: 1px solid #ebedef;
+  display: flex;
+  margin-top: 30px;
+}
+
+.noticias-imagens img {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+.container h5 {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #c4170c;
+  margin: 15px 0;
+}
+
+.container h4 {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2f3134;
+  margin: 15px 0;
+}
+
+.container p {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2f3134;
+}
+
+.noticias-imagens div {
+  width: 193px;
+  margin-top: 30px;
+}
+
+.crimes-fronteira {
+  margin: 30px 20px;
+}
+
+.noticias-sem-imagens {
+  display: flex;
+}
+
+.noticias-sem-imagens div {
+  width: 193px;
+  margin-top: 20px;
+}
+
+.pao-acucar {
+  margin: 20px 20px;
+}
+
+.noticias-secundarias {
+  border-left: 1px solid #ebedef;
+  width: 624px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.noticias-secundarias1 {
+  border-right: 1px solid #ebedef;
+  padding-right: 40px;
+  margin-left: 35px;
+}
+
+.noticias-secundarias img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+.noticias-secundarias1 div {
+  width: 240px;
+}
+
+.noticias-secundarias2 div {
+  width: 240px;
+}
+
+.espiao,
+.greve,
+.jh,
+.verdades {
+  margin-bottom: 30px;
+}
+
+.texto-verdades {
+  margin-bottom: 10px;
+}
+
+.conteudo-campeonato {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2f3134;
+}
+
+.img-logo {
+  background-image: url("img/header-grid-logo.svg");
+  width: 174px;
+  height: 36px;
+}
+
+.menu-mobile {
+  color: white;
+  font-size: 0px;
+  font-weight: 0;
+  width: 0;
+  height: 0;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-logo {
+    background-image: url("img/logo_mobile 1.png");
+    width: 210px;
+    height: 57px;
+  }
+
+  .caixa-menu {
+    display: block;
+  }
+
+  .menu-mobile {
+    font-size: 20px;
+    font-weight: 700;
+    width: 375px;
+    font-family: "Encode Sans", sans-serif;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .g1,
+  .globo,
+  .valor,
+  .ge,
+  .cartola,
+  .gplay,
+  .dropz,
+  .gshow,
+  .quem,
+  .receitas {
+    color: white;
+    font-size: 0px;
+    font-weight: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .noticias-principais,
+  .noticias-secundarias,
+  .noticias-imagens,
+  .noticias-sem-imagens,
+  .noticias-secundarias1,
+  .noticias-secundarias2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  .manchete h1 {
+    width: 100%;
+    font-size: 32px;
+  }
+
+  .manchete h2 {
+    font-size: 18px;
+    color: #cd150b;
+  }
+
+  .container {
+    border: none;
+    margin: 30px auto;
+  }
+
+  .container img {
+    width: 120px;
+    height: 67px;
+    border-radius: 4px;
+  }
+
+  .noticias-imagens div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ebedef;
+  }
+
+  .noticias-imagens h4 {
+    width: 240px;
+    margin-top: 0px;
+    color: #cd150b;
+    font-size: 18px;
+  }
+
+  .noticias-imagens p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #cd150b;
+  }
+
+  .container h5 {
+    width: 0;
+    font-size: 0;
+    font-weight: 0;
+    color: none;
+  }
+
+  .noticias-sem-imagens div {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    border-bottom: 1px solid #ebedef;
+  }
+
+  .noticias-sem-imagens h4 {
+    font-size: 18px;
+    color: #cd150b;
+  }
+
+  .noticias-sem-imagens p {
+    font-size: 15.5px;
+    color: #cd150b;
+  }
+
+  .noticias-secundarias1 div {
+    width: 100%;
+    margin-left: -36px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ebedef;
+  }
+
+  .noticias-secundarias1 h4 {
+    width: 240px;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #06aa48;
+  }
+
+  .noticias-secundarias1 p {
+    margin-top: 10px;
+    font-size: 15.5px;
+    color: #06aa48;
+  }
+
+  .espiao,
+  .greve,
+  .jh,
+  .verdades {
+    margin-bottom: 20px;
+  }
+
+  .espiao {
+    margin-top: 20px;
+  }
+
+  .noticias-secundarias2 div {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ebedef;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .noticias-secundarias2 h4 {
+    width: 240px;
+    margin-top: 0px;
+    font-size: 18px;
+    color: #ff8203;
+  }
+
+  .noticias-secundarias2 p {
+    margin-top: 10px;
+    font-size: 15.5px;
+    color: #ff8203;
+  }
+
+  .imperador {
+    border-bottom: none;
+  }
+}
